@@ -1,0 +1,13 @@
+def largest(a,b,c):
+  if (a>=b) and (a>=c) :
+    max = a
+  elif (b>=a) and (b>=c) :
+    max = b
+  else :
+    max = c
+  return max
+#main code
+a = 46
+b = 567
+c = 13
+print(largest(a,b,c))
